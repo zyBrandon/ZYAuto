@@ -2,30 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8b714-c0aa-4973-a94a-ac01c4f4a87e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/mapper/addUrlMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/mapper/getUserByUsername.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/mapper/getUserUrlHaveMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/addURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getAllURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/DeleteURLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/AddURLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/AddURLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/HomeIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/HomeIndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/PostURLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/PostURLController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/mapper/getAllURLByUserNameMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/mapper/getAllURLByUserNameMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/model/UserURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/model/UserURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/getAllURLByUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getAllURLByUserName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/getURLByUserName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getURLByUserName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/getUserUrlHave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getUserUrlHave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/mapper/getAllUrlMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/mapper/getAllUrlMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/addResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/addResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/getAllURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getAllURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/getRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/controller/AddURLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/controller/AddURLController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/controller/HomeIndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/controller/HomeIndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/service/getAllURLByUserName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/service/getAllURLByUserName.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - auto@zhouyueBrandon.xyz" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - auto@zhouyueBrandon.xyz" type="feb32156:DbDataSourceImpl" />
+        <item name="auto: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,10 +61,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
@@ -82,6 +102,21 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@626919b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,6 +133,10 @@
       <workItem from="1569825969442" duration="3825000" />
       <workItem from="1570622050058" duration="989000" />
       <workItem from="1571126599401" duration="11484000" />
+      <workItem from="1571209407153" duration="6767000" />
+      <workItem from="1571832928548" duration="1183000" />
+      <workItem from="1571882745761" duration="1889000" />
+      <workItem from="1572229677224" duration="3019000" />
     </task>
     <servers />
   </component>

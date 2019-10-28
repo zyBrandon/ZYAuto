@@ -1,7 +1,6 @@
 package com.zy.controller;
 
-
-import com.zy.service.addURL;
+import com.zy.service.getUserUrlHave;
 import com.zy.util.ApiResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,36 +11,27 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class AddURLController {
+public class DeleteURLController {
 
     @Autowired
-    private addURL addURL;
-
+    private getUserUrlHave getUserUrlHave;
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @RequestMapping(value = "/addUrl",method = RequestMethod.POST)
-    public ApiResult addUrl(@RequestParam String username,@RequestParam String url){
+    @RequestMapping(value = "/deleteUrl",method = RequestMethod.POST)
+    public ApiResult deleteUrl(@RequestParam String username,@RequestParam String url){
         if (getParams(username,url) == false){
-            logger.warn("addUrl参数错误");
-            return ApiResult.success(10000,"失败","参数错误");
+            logger.warn("delete接口参数错误");
+            return ApiResult.success(10000, "失败","参数错误");
         }
 
-        boolean res = addURL.addURL(username,url);
+        boolean res = getUserUrlHave.getUserUrlHave(username, url);
         if (res == false){
-            logger.warn("addURL方法错误");
-            return ApiResult.success(500,"失败","服务异常");
+            logger.warn("用户的url不存在");
         }
-
-        return ApiResult.success(200,"成功","");
-
     }
 
     public boolean getParams(String username,String url){
-        if (username == null || username.length() > 20){
-            return false;
-        }
-
-        if (url == null || url.length() > 200){
+        if (username == null || url == null || username.length() > 20 || url.length() > 200){
             return false;
         }
         return true;

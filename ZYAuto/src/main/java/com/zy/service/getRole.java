@@ -16,12 +16,14 @@ public class getRole {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     public User getRole(String username){
+        System.out.println("service进来了" );
         if (getParams(username) == false){
             logger.warn("getRole参数错误");
-            return null;
+            return new User();
         }
 
         User user = getUserByUsername.getUserByUsername(username);
+
         if (user == null){
             logger.warn("getRole getUserByUsername为空");
         }
