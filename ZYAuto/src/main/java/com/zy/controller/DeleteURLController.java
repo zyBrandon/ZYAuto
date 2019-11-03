@@ -1,5 +1,6 @@
 package com.zy.controller;
 
+import com.zy.service.deleteURL;
 import com.zy.service.getUserUrlHave;
 import com.zy.util.ApiResult;
 import org.slf4j.Logger;
@@ -15,6 +16,10 @@ public class DeleteURLController {
 
     @Autowired
     private getUserUrlHave getUserUrlHave;
+    @Autowired
+    private deleteURL deleteURL;
+
+
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @RequestMapping(value = "/deleteUrl",method = RequestMethod.POST)
@@ -27,7 +32,14 @@ public class DeleteURLController {
         boolean res = getUserUrlHave.getUserUrlHave(username, url);
         if (res == false){
             logger.warn("用户的url不存在");
+            return ApiResult.success(10000,"失败","用户的url不存在" );
         }
+        boolean result = deleteURL.deleteURL(username, url);
+        if (result == false){
+            logger.warn("deleteURL删除url失败" );
+            return ApiResult.success(10000,"失败","deleteURL删除url失败");
+        }
+        return ApiResult.success(200,"成功","删除url成功");
     }
 
     public boolean getParams(String username,String url){

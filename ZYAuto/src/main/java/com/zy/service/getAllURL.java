@@ -23,6 +23,7 @@ public class getAllURL {
         Vector<UserURL> res = getAllUrlMapper.getAllUrl();
         if (res == null){
             logger.warn("getAllURL 结果为空");
+            return null;
         }
         return res;
     }

@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.Vector;
+
 @Mapper
 public interface getAllUrlMapper {
     @Select("select * from user_url_tbl")
