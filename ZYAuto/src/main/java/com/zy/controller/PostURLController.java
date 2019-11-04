@@ -2,8 +2,10 @@ package com.zy.controller;
 
 import com.zy.model.User;
 import com.zy.model.UserURL;
+import com.zy.service.addResult;
 import com.zy.service.getAllURL;
 import com.zy.service.getRole;
+import com.zy.service.sendEmail;
 import com.zy.util.ApiResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,7 +32,12 @@ public class PostURLController {
 
     @Autowired
     private getRole getRole;
+    @Autowired
+    private sendEmail sendEmail;
+    @Autowired
     private getAllURL getAllURL;
+    @Autowired
+    private addResult addResult;
 
     @RequestMapping(value = "/posturl",method = RequestMethod.POST)
     public ApiResult posturl(@RequestParam String username){
@@ -67,8 +74,22 @@ public class PostURLController {
                 MultiValueMap<String,String> params = new LinkedMultiValueMap<>();
                 Object result = client(url,method,params);
                 logger.info((String) result);
+                //正确了加入结果
+                boolean addResultRes = addResult.addResult(url,"成功",username);
+                if (addResultRes == false){
+                    logger.warn("addResult 添加结果失败");
+                    return ApiResult.success(10000,"失败","addResult 添加结果失败");
+                }
 
             }catch (Exception e){
+                //失败了记录结果
+                boolean addResultRes = addResult.addResult(url,"失败",username);
+                if (addResultRes == false){
+                    logger.warn("addResult 添加结果失败");
+                    return ApiResult.success(10000,"失败","addResult 添加结果失败");
+                }
+                //失败发邮件
+                sendEmail.sendMail();
                 return ApiResult.success(500,"失败", url+" http请求异常");
             }
         }
