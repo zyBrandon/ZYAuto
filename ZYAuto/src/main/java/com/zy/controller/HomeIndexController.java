@@ -20,6 +20,8 @@ public class HomeIndexController {
 
     @Autowired
     private getAllURLByUserName getAllURLByUserName;
+    @Autowired
+    private getUserLand getUserLand;
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @RequestMapping(value = "/home",method = RequestMethod.POST)
@@ -28,6 +30,12 @@ public class HomeIndexController {
             logger.warn("home参数错误");
             return ApiResult.success(10000,"失败","参数错误");
         }
+
+        logger.warn(username);
+        //查看是否登录
+        boolean res = getUserLand.getUserLand(username);
+        return ApiResult.success(200,"登录","已登录");
+        /*
         //结果
         HashMap result = new HashMap();
         result.put("username",username);
@@ -40,6 +48,8 @@ public class HomeIndexController {
         }
         result.put("urls",userurl);
         return ApiResult.success(200,"成功",result);
+        */
+
     }
 
     public boolean getParams(String username){
