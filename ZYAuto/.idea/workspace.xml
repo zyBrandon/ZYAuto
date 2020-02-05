@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8b714-c0aa-4973-a94a-ac01c4f4a87e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/ZYAuto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getUserLand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/HomeIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/HomeIndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/mapper/addResultMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/mapper/addResultMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/addResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/addResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/controller/AddURLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/controller/AddURLController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/controller/HomeIndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/controller/HomeIndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/controller/PostURLController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/controller/PostURLController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/service/addResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/service/addResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/service/addURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/service/addURL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/service/getAllURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/service/getAllURL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/service/getRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/service/getRole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zy/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zy/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/UserLandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/UserLandController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +122,7 @@
       <workItem from="1572751265520" duration="7482000" />
       <workItem from="1572837465361" duration="1369000" />
       <workItem from="1580732296713" duration="1223000" />
-      <workItem from="1580795282137" duration="10152000" />
+      <workItem from="1580795282137" duration="12171000" />
     </task>
     <servers />
   </component>
@@ -178,38 +159,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1580732887753" />
-    <state width="1323" height="428" key="GridCell.Tab.0.bottom" timestamp="1580812384779">
+    <state width="1323" height="403" key="GridCell.Tab.0.bottom" timestamp="1580814404746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580812384779" />
-    <state width="1323" height="428" key="GridCell.Tab.0.center" timestamp="1580812384778">
+    <state width="1323" height="403" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580814404746" />
+    <state width="1323" height="403" key="GridCell.Tab.0.center" timestamp="1580814404745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580812384778" />
-    <state width="1323" height="428" key="GridCell.Tab.0.left" timestamp="1580812384778">
+    <state width="1323" height="403" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580814404745" />
+    <state width="1323" height="403" key="GridCell.Tab.0.left" timestamp="1580814404745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580812384778" />
-    <state width="1323" height="428" key="GridCell.Tab.0.right" timestamp="1580812384779">
+    <state width="1323" height="403" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580814404745" />
+    <state width="1323" height="403" key="GridCell.Tab.0.right" timestamp="1580814404746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580812384779" />
-    <state width="1323" height="428" key="GridCell.Tab.1.bottom" timestamp="1580812384779">
+    <state width="1323" height="403" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580814404746" />
+    <state width="1323" height="403" key="GridCell.Tab.1.bottom" timestamp="1580814404747">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580812384779" />
-    <state width="1323" height="428" key="GridCell.Tab.1.center" timestamp="1580812384779">
+    <state width="1323" height="403" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580814404747" />
+    <state width="1323" height="403" key="GridCell.Tab.1.center" timestamp="1580814404746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580812384779" />
-    <state width="1323" height="428" key="GridCell.Tab.1.left" timestamp="1580812384779">
+    <state width="1323" height="403" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580814404746" />
+    <state width="1323" height="403" key="GridCell.Tab.1.left" timestamp="1580814404746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580812384779" />
-    <state width="1323" height="428" key="GridCell.Tab.1.right" timestamp="1580812384779">
+    <state width="1323" height="403" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580814404746" />
+    <state width="1323" height="403" key="GridCell.Tab.1.right" timestamp="1580814404746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="428" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580812384779" />
+    <state width="1323" height="403" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580814404746" />
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1580800291033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
