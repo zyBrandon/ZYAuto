@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f8b714-c0aa-4973-a94a-ac01c4f4a87e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/mapper/getUsernameAndPassMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getUsernameAndPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/model/EmailUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/addUsernameRedis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/HomeIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/HomeIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/UserLandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/UserLandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/controller/sendEmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/controller/sendEmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zy/service/getUsernameAndPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zy/service/getUsernameAndPass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +29,14 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - auto@zhouyueBrandon.xyz" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,7 +124,9 @@
       <workItem from="1572837465361" duration="1369000" />
       <workItem from="1580732296713" duration="1223000" />
       <workItem from="1580795282137" duration="12171000" />
-      <workItem from="1580885871318" duration="1896000" />
+      <workItem from="1580885871318" duration="4338000" />
+      <workItem from="1580966180748" duration="81000" />
+      <workItem from="1580971910334" duration="4017000" />
     </task>
     <servers />
   </component>
@@ -145,18 +147,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="51" key="#HTTP_Proxy" timestamp="1580800633064">
+    <state x="275" y="51" key="#HTTP_Proxy" timestamp="1580980982986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="51" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1580800633064" />
+    <state x="275" y="51" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1580980982986" />
     <state x="275" y="25" key="#Project_Structure" timestamp="1580732896193">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1580732896193" />
-    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580800635836">
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580981139321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580800635836" />
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580981139321" />
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580732887753">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -193,18 +195,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="403" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580814404746" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1580800291033">
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1580980720791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1580800291033" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1580980720791" />
     <state x="269" y="18" key="SettingsEditor" timestamp="1580800280953">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="269" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580800280953" />
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1580795338629">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1580966227028">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580795338629" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580966227028" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580887763356">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

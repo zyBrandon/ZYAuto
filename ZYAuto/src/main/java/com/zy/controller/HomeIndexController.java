@@ -34,8 +34,8 @@ public class HomeIndexController {
         logger.warn(username);
         //查看是否登录
         boolean res = getUserLand.getUserLand(username);
-        return ApiResult.success(200,"登录","已登录");
-        /*
+
+
         //结果
         HashMap result = new HashMap();
         result.put("username",username);
@@ -47,8 +47,13 @@ public class HomeIndexController {
             return ApiResult.success(200,"列表为空或者调用失败","");
         }
         result.put("urls",userurl);
+        if (true == res){
+            result.put("landRes","已登录");
+        } else {
+            result.put("landRes","未登录");
+        }
         return ApiResult.success(200,"成功",result);
-        */
+
 
     }
 
